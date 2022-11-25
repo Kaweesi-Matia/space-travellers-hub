@@ -86,6 +86,14 @@ li:last-child {
   height: 45px;
   border-radius: 6px;
 }
+.rocket_description p span {
+  background-color: #0086ff;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2px 5px;
+  margin: 0 10px 10px 0;
+  border-radius: 4px;
+}
 
 .rocket_description .selectReserve {
   background-color: blue;
