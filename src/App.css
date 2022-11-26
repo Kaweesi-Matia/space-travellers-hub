@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  padding: 18px 40px;
+  border-bottom: 2px solid rgb(210, 210, 210);
+}
+
+.navbar_header img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar_header {
+  display: flex;
+  row-gap: 8px;
+  align-items: center;
+}
+
+.navbar_header h2 {
+  font-size: 25px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 12px;
+}
+
+li a {
+  color: blue;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+li:last-child {
+  padding-left: 5px;
+  border-left: 2px solid rgb(188, 188, 188);
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.rocketContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rockets-division {
+  display: flex;
+  padding: 15px;
+}
+
+.rocket_image {
+  width: 400px;
+  margin-left: 30px;
+}
+
+.rocket_description {
+  padding: 12px 80px;
+}
+
+.rocket_description h2 {
+  color: rgb(45, 45, 45);
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rocket_description p {
+  padding: 12px 0;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: rgb(58, 58, 58);
+}
+
+.rocket_description button {
+  border: none;
+  padding: 12px 18px;
+  height: 45px;
+  border-radius: 6px;
+}
+
+.rocket_description p span {
+  background-color: #0086ff;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2px 5px;
+  margin: 0 10px 10px 0;
+  border-radius: 4px;
+}
+
+.rocket_description .selectReserve {
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.rocket_description .cancel_reserved {
+  border: 2px solid rgb(45, 45, 45);
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 45, 45);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: 25px auto;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+
+th {
+  border: 1px solid whitesmoke;
+  text-align: left;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.missionRow {
+  background-color: #d3d3d3;
+}
+
+.missionRow:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.status-div {
+  text-align: center;
+}
+
+.mission_name {
+  width: 14%;
+}
+
+.mission_status,
+.mission-action {
+  width: 14%;
+  text-align: center;
+}
+
+.member-division {
+  color: whitesmoke;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.not_member {
+  background: #808080;
+}
+
+.active_member {
+  background-color: rgb(27, 144, 168);
+}
+
+.button-mission {
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.join-mission {
+  color: #808080;
+  border: 1px solid #808080;
+}
+
+.leave-mission {
+  color: red;
+  border: 1px solid red;
+}
+
+.profileContainer {
+  display: flex;
+  column-gap: 40px;
+  margin: 45px auto;
+  width: 85%;
+}
+
+.all_missions,
+.all_rockets {
+  width: 50%;
+}
+
+.missionsList,
+.rocketsList {
+  border: 2px solid rgb(188, 188, 188);
+  border-radius: 6px;
+  margin: 18px auto;
+}
+
+.missionsList h4,
+.rocketsList h4 {
+  padding: 18px 25px;
+  border-bottom: 1px solid rgb(188, 188, 188);
+}
+
+.display_nothing {
+  font-style: italic;
+  color: rgb(188, 188, 188);
+}
